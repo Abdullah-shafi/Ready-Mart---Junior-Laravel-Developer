@@ -1,0 +1,166 @@
+body {
+	font-family: Lucida Sans Unicode;
+	font-size: .8em;
+
+	line-height: 1.3em;
+	margin: 0 auto;
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 96px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#content {
+	margin: 0 auto;
+	width: 1400px;
+	
+}
+
+#container {
+	padding-top: 5em;
+}
+
+
+ section.y {
+	clear: right;
+	width: 63.66%;
+	float: left;
+}
+
+ section.z {
+	width: 33.33%;
+	float: left;
+	padding-left: 38px;
+
+}
+
+.hr {
+	width: 1.33%;
+	float: left;
+    border-right: solid;
+    height: 977px;
+}
+
+.sec1_1st {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 260px; /* Should be removed. Only for demonstration */
+  padding-right: 10px;
+}
+
+.sec1_2nd {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 203px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.sec_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sec1_img1_w
+{
+	float: left;
+  width: 100%;
+  height: 379px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec1_img1
+{
+	float: left;
+  width: 100%;
+  height: 323px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec1_img2
+{
+	float: left;
+  width: 100%;
+  height: 145px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec1_img2_w
+{
+	float: left;
+  width: 100%;
+  height: 176px; /* Should be removed. Only for demonstration */
+ 
+}
+
+.sec1_img3
+{
+	float: right;
+  width: 16%;
+  height: 25px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec2_1st {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 362px; /* Should be removed. Only for demonstration */
+  padding-right: 10px;
+}
+.sec2_2nd {
+  float: left;
+  width: 	50%;
+  padding: 10px;
+  height: 100px;
+  padding-top: 114px;
+  padding-bottom: 98px;
+ 
+}
+.sec2_img1
+{
+	float: left;
+  width: 100%;
+  height: 323px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec2_img2
+{
+	float: left;
+  width: 100%;
+  height: 145px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec2_img2_e
+{
+	float: left;
+  width: 100%;
+  height: 170px; /* Should be removed. Only for demonstration */
+ 
+}
+.sec1_img4
+{
+	    float: left;
+    width: 100%;
+    height: 372px;
+}
+.details
+{
+	width: 35%;
+}
+
+.details_pic_1
+{
+	width: 100%;
+}
